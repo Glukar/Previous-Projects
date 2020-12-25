@@ -1,0 +1,213 @@
+/* Stvari za naslov */
+#title {
+  background-image: url(../img/background-1.jpg);
+  background-size: cover;
+
+  padding: 21%;
+  margin-top: -1%;
+  margin-bottom: -1%;
+
+  font-size: 5em;
+  text-align: center;
+  text-shadow: 4px 4px rgb(78, 79, 78);
+
+  position: relative;
+  top: -10%;
+}
+
+/* Main selection  do reda 47 */
+
+#main-selection {
+  list-style-type: none;
+  overflow: hidden;
+  padding-right: 8.8%;
+  background-color: green;
+  text-align: center;
+  position: sticky;
+  -moz-position: sticky;
+  top: 0%;
+
+  z-index: 2;
+}
+#main-menu {
+  float: left;
+}
+
+#main-menu {
+  display: block;
+  padding: 5px;
+  margin-left: 140px;
+  margin-right: auto;
+  padding: 2px;
+  color: rgb(220, 244, 169);
+}
+
+#main-menu:hover {
+  transform: translate(3px, 3px);
+}
+
+#uhr {
+  margin: 0;
+  position: relative;
+  left: 38%;
+
+  z-index: 1;
+}
+
+/* Kratak pregled svih stvari na sajtu sa naslovima do reda 159 */
+
+.stadte:link {
+  text-decoration: none;
+  color: rgb(220, 244, 169);
+}
+
+.stadte:visited {
+  text-decoration: none;
+  color: rgb(220, 244, 169);
+}
+
+.berge:link {
+  text-decoration: none;
+  color: rgb(220, 244, 169);
+}
+
+.berge:visited {
+  text-decoration: none;
+  color: rgb(220, 244, 169);
+}
+
+.flusse:link {
+  text-decoration: none;
+  color: rgb(220, 244, 169);
+}
+
+.flusse:visited {
+  text-decoration: none;
+  color: rgb(220, 244, 169);
+}
+
+.geschichte:link {
+  text-decoration: none;
+  color: rgb(220, 244, 169);
+}
+
+.geschichte:visited {
+  text-decoration: none;
+  color: rgb(220, 244, 169);
+}
+
+.festungen:link {
+  text-decoration: none;
+  color: rgb(220, 244, 169);
+}
+
+.festungen:visited {
+  text-decoration: none;
+  color: rgb(220, 244, 169);
+}
+
+.kloster:link {
+  text-decoration: none;
+  color: rgb(220, 244, 169);
+}
+
+.kloster:visited {
+  text-decoration: none;
+  color: rgb(220, 244, 169);
+}
+
+.uberblick {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* CSS for short text on main page, it has positioning for every single text and title */
+
+.stadte-p {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.berge-t {
+  text-align: right;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.berge-p {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.flusse-p {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.geschichte-t {
+  text-align: right;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.geschichte-p {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.festungen-t {
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.festungen-p {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/* Dodatne stvari potrebne za ovu stranu */
+
+.table {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lang {
+  font-size: 0.75em;
+}
+
+.contactUs {
+  background-color: rgb(85, 182, 80)
+}
+
+li a:hover {
+  padding: 10%;
+  animation-name: menu;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(158, 223, 155);
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+/* Animations */
+@keyframes menu {
+  20% {background-color: rgb(62, 165, 56);
+      transform: translate(0.5px, 0.5px);}
+  50% {background-color: rgb(102, 205, 96);
+      transform: translate(1.5px, 2px);}
+  100% {background-color: #9EDF9B;
+        transform: translate(3px, 3px);}
+}

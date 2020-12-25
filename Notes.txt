@@ -1,0 +1,16 @@
+turisticka razglednica srbije
+(tvrdjava petrovaradin
+smederevska tvrdjava
+hidrografija
+manastiri)
+
+
+za sledeci put: 
+JAVASCRIPT menu za geschichte
+zavrsi tabelu (dodaj javascript da tabela pocne od 1, pa kad kliknes krene od 50)
+dodaj ikonice za svaku stranu
+
+
+pitaj:
+zasto ubacivanje slike ne radi??
+Kako da dajem id objektima koje sam napravio preko JavaScripta

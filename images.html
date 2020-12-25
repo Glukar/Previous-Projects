@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta lang="de">
+  <style type="text/css">
+  body  {
+  background-image: url(../img/background-4.jpg);
+  background-size: cover;
+  }
+
+  button {
+   line-height: 60px;
+   font-weight: bold;
+
+   padding: 0 40px;
+   margin-top: 20px;
+   margin-left: 500px;
+   text-align: center;
+
+   background: #B3682D;
+
+   border: none;
+   box-sizing: content-box;
+ }
+ button:hover {
+   background: lightsalmon;
+ }
+
+ #container {
+  /* width: 400px;
+  height: 400px; */
+  position: relative;
+}
+#animate {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background-image: url(../img/1914-3.jpg);
+}
+
+#container1 {
+ /* width: 400px;
+ height: 400px; */
+ transform: translate(6000px);
+ position: relative;
+ float: right;
+}
+#animate1 {
+ width: 200px;
+ height: 150px;
+ position: absolute;
+ background-image: url(../img/apis.jpg);
+}
+  </style>
+  </head>
+  <body>
+
+    <div><a href="geschichte.html"><button>ZÜRUCK</button></a></div>
+    <img src="../img/1914-1.png" width="210px"><p><i>Königreich Serbien</i></p>
+    <img src="../img/1914-2.jpg" id="photo" onload="fixPhoto()" onmouseover=big() onmouseout=small() border="1">
+    <img src="../img/1914-4.jpg" id="photo2" onload="fixPhoto1()" onmouseover=big1() onmouseout=small1() border="1" height="241px">
+
+    <p><button onclick="myMove()" class="apis">Apis</button></p>
+
+    <div id ="container">
+      <div id ="animate"></div>
+    </div>
+    <div id ="container1">
+      <div id ="animate1"></div>
+      <p><button onclick="myMove1()">Assassinate</button></p>
+    </div>
+    <script src="../jsDir1/images.js"></script>
+    </body>
+</html>

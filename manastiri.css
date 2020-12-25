@@ -1,0 +1,125 @@
+* {
+  font-family: sans-serif;
+}
+
+#main-selection {
+  position: sticky;
+  top: 0%;
+  list-style-type: none;
+
+  padding: -1px;
+  margin-left: -4.5px;
+
+  overflow: hidden;
+  background-color: green;
+
+  z-index: 1;
+}
+
+#main-menu {
+  float: left;
+}
+
+.mainMenu {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+  margin-left: 120px;
+  padding: 16px;
+}
+
+.mainMenu:hover {
+  background-color: #55B650;
+}
+
+
+h1 {
+  font-size: 4.3em;
+
+  text-align: center;
+}
+
+body {
+  background-color: #ADD35C;
+}
+
+.mainText {
+  text-align: center;
+}
+
+/* Second unordered list */
+
+#ul {
+  font-size: 1.75em;
+  font-weight: bold;
+
+  list-style-type: none;
+  text-align: center;
+}
+
+#kloster:link {
+  color: #542478;
+}
+
+#kloster:visited {
+  color: #892267;
+}
+
+#kloster:hover {
+  animation-name: listItem;
+  animation-duration: 0.7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+}
+
+/* Animations */
+
+@keyframes listItem {
+  0% {
+    font-size: 1em;
+    color: #892267;
+  }
+  10% {
+    font-size: 1.05em;
+    color:#851d62;
+  }
+  20% {
+    font-size: 1.1em;
+    color: #7d165a;
+  }
+  30% {
+    font-size: 1.15em;
+    color: #6e104e;
+  }
+  40% {
+    font-size: 1.2em;
+    color: #610c44;
+  }
+  50% {
+    font-size: 1.25em;
+    color: #610a43;
+  }
+  60% {
+    font-size: 1.3em;
+    color: #5c083f;
+  }
+  70% {
+    font-size: 1.35em;
+    color: #540539;
+  }
+  80% {
+    font-size: 1.4em;
+    color: #4d0434;
+  }
+  90% {
+    font-size: 1.45em;
+    color: #45032e;
+  }
+  100% {
+    font-size: 1.5em;
+    color: #40002a;
+  }
+}

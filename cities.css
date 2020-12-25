@@ -1,0 +1,59 @@
+body {
+  background-image: url(../img/background-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  font-family: sans-serif;
+}
+
+#title {
+  font-size: 4em;
+
+  text-align: center;
+}
+
+ul {
+  position: sticky;
+  top: 0%;
+  list-style-type: none;
+
+  padding: -1px;
+  margin-left: -4.5px;
+
+  overflow: hidden;
+  background-color: green;
+
+  z-index: 1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+  margin-left: 140px;
+  padding: 16px;
+}
+
+li a:hover {
+  background-color: #55B650;
+}
+
+p {
+  text-align: center;
+
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* Table stuff -- not very useful */
+table {
+  background-color: #83BDBB;
+  opacity: 0.90;
+  z-index: 2;
+}

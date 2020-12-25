@@ -1,0 +1,50 @@
+#title {
+  font-size: 5em;
+
+  text-align: center;
+}
+
+
+.karte {
+  opacity: 0.75;
+}
+
+
+/* For main selection */
+/* Overlapping of picture and main selection is intential btw */
+
+ul {
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+
+  margin: -4.5px;
+  padding: -1px;
+
+  overflow: hidden;
+  background-color: green;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin-left: 70px;
+  text-decoration: none;
+}
+
+li a:hover {
+    background-color: #55B650;
+}
+
+body {
+  background-image: url(../img/background-3edit.jpg);
+  background-repeat: no-repeat;
+
+  font-family: sans-serif;
+}

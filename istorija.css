@@ -1,0 +1,94 @@
+.title {
+  font-size: 4.5em;
+  text-align: center;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+body {
+  background-image: url(../img/background-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Things for buttons, its repeating but they need to stay near each other and not overlap*/
+ button {
+  line-height: 60px;
+  font-weight: bold;
+
+  padding: 0 40px;
+  margin-top: 20px;
+  margin-left: 500px;
+  text-align: center;
+
+  background: #B3682D;
+
+  border: none;
+  box-sizing: content-box;
+}
+button:hover {
+  background: lightsalmon;
+}
+
+#footer {
+  margin-top: -200px;
+  margin-left: 600px;
+}
+
+/* Stvari za kasnije -- kad sajt bude bio vise developed 42-59 */
+
+/* #button1 {
+  line-height: 60px;
+  font-weight: bold;
+
+  padding: 0 54px;
+  margin-top: 20px;
+  margin-left: 500px;
+
+  background: #B3682D;
+
+  border: none;
+  box-sizing: content-box;
+} */
+
+/* #button1:hover {
+  background: lightsalmon;
+} */
+
+ul {
+  position: sticky;
+  top: 0%;
+  list-style-type: none;
+
+  margin: -4.5px;
+  padding: -1px;
+
+  overflow: hidden;
+  background-color: green;
+}
+
+li {
+  float: left
+}
+
+li a {
+  display: block;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+
+  padding: 16px;
+  margin-left: 140px;
+}
+
+li a:hover {
+  background-color: #55B650;
+}

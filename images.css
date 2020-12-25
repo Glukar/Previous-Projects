@@ -1,0 +1,22 @@
+body  {
+background-image: url(../img/background-4.jpg);
+background-size: cover;
+}
+
+button {
+ line-height: 60px;
+ font-weight: bold;
+
+ padding: 0 40px;
+ margin-top: 20px;
+ margin-left: 500px;
+ text-align: center;
+
+ background: #B3682D;
+
+ border: none;
+ box-sizing: content-box;
+}
+button:hover {
+ background: lightsalmon;
+}
