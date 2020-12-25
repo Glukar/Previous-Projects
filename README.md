@@ -1,5 +1,5 @@
 # Previous-Projects
-These are my previous project that i didn't track with GitHub.
+This is my previous project that i didn't track with GitHub.
 
 ##
 
